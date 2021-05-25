@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proto", "Proto", "{DF4730BC-57F6-41F5-9717-EF5D2FD3F0FB}"
 	ProjectSection(SolutionItems) = preProject
 		calculator.proto = calculator.proto
+		helloworld.proto = helloworld.proto
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{4BA190F3-0C28-40C1-B1FD-4A18CA0DFA7A}"
