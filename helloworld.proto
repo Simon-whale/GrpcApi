@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+package helloworld;
+
+message person {
+    string title =1;
+    string firstname = 2;
+    string surname = 3;
+}
+
+message sayHelloRequest {
+    person To = 1;
+}
+
+message sayHelloResponse {
+    string result =1;
+}
+
+service helloWorldService {
+    rpc person (sayHelloRequest) returns (sayHelloResponse) {}
+}

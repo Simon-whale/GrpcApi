@@ -36,6 +36,7 @@ namespace GrpcApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGrpcService<CalculatorServiceImpl>();
+                endpoints.MapGrpcService<HelloWorldServiceImpl>();
             });
         }
     }
