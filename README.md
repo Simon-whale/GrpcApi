@@ -4,6 +4,10 @@ This project was to see what it would take to create a C# gRPC server using Web 
 
 **TODO:**
 
-1. Add more services
-2. Error handling
-3. logging
+1. **Add more services.**\
+     This now contains more than one Grpc endpoint, these consume the proto files that are created outside of the API
+3. **Error handling.** 
+4. **logging.** 
+5. **find a way to add the proto files into a project rather than have them sit outside the various projects.** 
+6. **create a python client to connect to the API.**\
+      Add reference to Python client here
