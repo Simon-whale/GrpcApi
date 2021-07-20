@@ -12,3 +12,5 @@ This project was to see what it would take to create a C# gRPC server using Web 
 6. **create a python client to connect to the API.**\
       Update: This has changed with new versions of Visual Studio, I will update this project as soon as possible
       Add reference to Python client here
+7. **Add Unit Tests**
+      My prefered framework of choice is xUnit with Moq
